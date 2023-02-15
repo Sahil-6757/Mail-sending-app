@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  margin: auto;
+  background: url("/background.jpeg");
+}
+.bounce {
+  background-color: rgb(231, 94, 94);
+  margin: auto;
+}
+.lottie {
+  margin: auto;
+  background: url("./background.jpeg");
+  background-size: cover;
+}
+.card-entry{
+    display: flex;
+    justify-content: space-between;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Totalcard{
+  display: flex;
+  margin: auto;
+}
+.btn-close{
+  margin-left: 67rem;
+}
